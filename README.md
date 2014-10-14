@@ -1,2 +1,2 @@
-All my C exercises for my courses at UCL
+All my personnal C exercises
 
