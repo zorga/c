@@ -63,7 +63,9 @@ void free_list (llist_t* list)
         removeHead (list);
     }
     free (list->head);
+    list->head = NULL;
     free (list);
+    list = NULL;
 }
 
 void printList (llist_t* list)
