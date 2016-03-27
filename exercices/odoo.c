@@ -2,6 +2,7 @@
 * You have a huge file named "data.bin" that does not fit in memory, code a
 * program that deletes every 7th byte of it, without opening other files.
 * truncate can be used to change its size.
+* Compile with : gcc -Wall -Werror -std=c99 -D_XOPEN_SOURCE=500 -o main test6.c
 **/
 #include <stdlib.h>
 #include <stdio.h>
