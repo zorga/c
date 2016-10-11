@@ -1,4 +1,4 @@
 <?php
   print_r(scandir('.'));
-  readfile('index.php');
+  file_get_contents("index.php");
 ?>
